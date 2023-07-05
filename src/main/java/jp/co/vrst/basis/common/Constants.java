@@ -1,4 +1,4 @@
-package jp.co.vrst.common;
+package jp.co.vrst.basis.common;
 
 public class Constants {
     public static final String BASE_PACKAGE_NAME = "jp.co.vrst";

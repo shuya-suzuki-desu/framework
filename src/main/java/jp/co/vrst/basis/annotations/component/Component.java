@@ -1,4 +1,4 @@
-package jp.co.vrst.basis.annotations;
+package jp.co.vrst.basis.annotations.component;
 
 import java.lang.annotation.ElementType;
 import java.lang.annotation.Retention;
@@ -7,6 +7,7 @@ import java.lang.annotation.Target;
 
 @Retention(RetentionPolicy.RUNTIME)
 @Target(ElementType.TYPE)
-public @interface Config {
-    
+public @interface Component {
+
+    String value() default "";
 }
